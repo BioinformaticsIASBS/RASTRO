@@ -1,0 +1,16 @@
+# Core Python dependencies
+numpy
+pandas==2.2.2
+tqdm
+ipython
+
+# GPU / deep-learning dependencies
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch==2.5.1
+torchvision==0.20.1
+torchaudio==2.5.1
+
+# Evo2 dependencies
+transformer_engine[pytorch]==2.3.0
+flash-attn==2.7.4.post1
+evo2
